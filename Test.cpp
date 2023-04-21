@@ -138,8 +138,8 @@ TEST_CASE("The << operator to print a fraction to an output stream in the format
     Fraction a(1,2);
     Fraction b(0,8);
 
-    CHECK_NOTHROW(cout << a);
-    CHECK_NOTHROW(cout << b);
+    CHECK_NOTHROW(cout << a << endl);
+    CHECK_NOTHROW(cout << b << endl);
 }
 //16
 TEST_CASE("The >> operator to read a fraction from an input stream by taking two integers as input.")
